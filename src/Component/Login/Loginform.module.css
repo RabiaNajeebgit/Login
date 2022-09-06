@@ -1,0 +1,103 @@
+.fromLignment{
+  width: 300px;
+  padding: 50px;
+  margin-left:150px;
+  margin-top: -50px;
+  
+
+  }
+  input[type="text"]:hover {
+    background-color:rgb(159, 223, 243);
+  }
+  input[type="password"]:hover {
+    background-color:rgb(159, 223, 243);
+  }
+.input[type="text"]
+{   height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    outline: 0;
+    font-size: 13px}
+.input[type="password"]
+{  height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 10px;
+    padding-left: 30px;
+    outline: 0;
+    font-size: 13px
+   }
+    .buttons{margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center}
+    .buttons button{height: 45px;
+        width: 50%;
+        border: none;
+        background-color: #061f42;
+        border-radius: 9px;font-size: 12px;
+        outline: 0;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.5s}
+    .buttons button:hover{
+        background-color: #083c87
+    }
+  
+    .eye-button
+    {
+      width:40px;
+      height:46px;
+      border:none;
+      background-color:#b8b1b1fa;
+      border-radius: 9px;font-size: 12px;
+      color: rgb(27, 25, 25);
+      cursor: pointer;
+      transition: all 0.5s;
+      margin-left:342px;
+    }
+    .eye-margin
+    {
+      margin-top:-46px;
+    }
+    .label:after {
+      content: " *";
+      font-weight: bold;
+      color: red;
+    }
+    
+    form label {
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+  
+    .disabled {margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center}
+  .disabled button{height: 45px;
+      width: 50%;
+      border: none;
+      background-color: grey;
+      border-radius: 9px;font-size: 12px;
+      outline: 0;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.5s;
+      margin-top:2px;
+    }
+  .disabled button:hover{
+      background-color: gray
+  }
+    
+    
+  
+  
+  
